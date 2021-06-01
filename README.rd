@@ -20,8 +20,11 @@ Follow user creation wizard
 
 run armbian-config  set up a wifi connection, then change System timezone and Keyboard layout according to your requirements ( avoid changing locale settings)
 
+git clone http://github.com/fra-castaneda/aRmbian 
+
 run aRmbian installation script as root
 
+cd aRmbian
 chmod +x aRmbian.sh
 ./aRmbian.sh
 
@@ -29,4 +32,7 @@ Reboot and login as new user and run Report script
 
 sudo chmod +x Report.sh
 ./Report.sh
+
+
+
 
