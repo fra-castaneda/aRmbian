@@ -19,8 +19,5 @@ sudo su - -c "R -e \"install.packages('devtools')\""
 sudo su - -c "R -e \"install.packages('multcomp')\""
 sudo su - -c "R -e \"install.packages('tidyverse')\""
 sudo su - -c "R -e \"install.packages('GADMTools')\""
-#sudo su - -c "R -e \"install.packages('scales')\""
-#sudo su - -c "R -e \"install.packages('rnaturalearth')\""
-#sudo su - -c "R -e \"install.packages('officer')\""
 sudo su - -c "R -e \"install.packages('flextable')\""
 
