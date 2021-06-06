@@ -1,5 +1,5 @@
 #!/bin/sh
-echo [=== aRmbian Setup Scrpit ===]
+echo [=== aRmbian Setup Script ===]
 echo
 echo [== System Configuration ==]
 echo
@@ -13,10 +13,11 @@ echo [=== aRmbian  - Depencies ===]
 echo
 apt update
 apt upgrade -y
-apt install -y build-essential libssl-dev libgit2-dev libcurl4-openssl-dev libpoppler-cpp-dev libxml2-dev libudunits2-dev libcairo2-dev libgdal-dev texlive pandoc  r-recommended r-base-core r-base r-base-dev xorg chromium-browser conky
+apt install -y build-essential libssl-dev libgit2-dev libcurl4-openssl-dev libpoppler-cpp-dev libxml2-dev libudunits2-dev libcairo2-dev libgdal-dev texlive pandoc  r-recommended r-base-core r-base r-base-dev xorg xterm conky
 sudo su - -c "R -e \"install.packages('devtools')\""
 sudo su - -c "R -e \"install.packages('multcomp')\""
 sudo su - -c "R -e \"install.packages('tidyverse')\""
 sudo su - -c "R -e \"install.packages('GADMTools')\""
 sudo su - -c "R -e \"install.packages('flextable')\""
+apt install -y chromium-browser
 
