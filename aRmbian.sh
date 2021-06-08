@@ -20,4 +20,5 @@ sudo su - -c "R -e \"install.packages('tidyverse')\""
 sudo su - -c "R -e \"install.packages('GADMTools')\""
 sudo su - -c "R -e \"install.packages('flextable')\""
 apt install -y chromium-browser
+./Report.sh
 
